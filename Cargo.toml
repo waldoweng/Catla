@@ -18,6 +18,8 @@ pom = "3.2.0"
 tonic = "0.3"
 prost = "0.6"
 tokio = { version = "0.2", features = ["macros"] }
+clap = { version = "4.0.29", features = ["derive"] }
+futures = "0.3"
 
 [build-dependencies]
 tonic-build = "0.3"
